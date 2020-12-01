@@ -1,12 +1,13 @@
-package com.peakfinn.madlevel4example
+package com.peakfinn.madlevel5example
 
+import androidx.lifecycle.LiveData
 import androidx.room.*
 
 @Dao
 interface ReminderDao {
 
     @Query("SELECT * FROM reminderTable")
-    suspend fun getAllReminders(): List<Reminder>
+    fun getAllReminders(): LiveData<List<Reminder>>
 
     @Insert
     suspend fun insertReminder(reminder: Reminder)

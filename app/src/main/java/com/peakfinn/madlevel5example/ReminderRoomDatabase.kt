@@ -1,4 +1,4 @@
-package com.peakfinn.madlevel4example
+package com.peakfinn.madlevel5example
 
 import android.content.Context
 import androidx.room.Database

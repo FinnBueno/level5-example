@@ -6,7 +6,7 @@
     app:startDestination="@id/remindersFragment">
     <fragment
         android:id="@+id/remindersFragment"
-        android:name="com.peakfinn.madlevel4example.RemindersFragment"
+        android:name="com.peakfinn.madlevel5example.RemindersFragment"
         android:label="reminders_fragment"
         tools:layout="@layout/reminders_fragment" >
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/addReminderFragment"
-        android:name="com.peakfinn.madlevel4example.AddReminderFragment"
+        android:name="com.peakfinn.madlevel5example.AddReminderFragment"
         android:label="add_reminder_fragment"
         tools:layout="@layout/add_reminder_fragment" />
 </navigation>

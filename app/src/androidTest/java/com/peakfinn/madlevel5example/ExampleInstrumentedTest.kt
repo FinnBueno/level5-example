@@ -1,4 +1,4 @@
-package com.peakfinn.madlevel4example
+package com.peakfinn.madlevel5example
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
